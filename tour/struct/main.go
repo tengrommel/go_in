@@ -11,5 +11,6 @@ type Vertex struct {
 
 func main() {
 	v:=Vertex{X:1, Y:2}
+	v.X = 3
 	fmt.Println(v)
 }
