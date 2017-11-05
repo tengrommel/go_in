@@ -3,6 +3,7 @@ package main
 import (
 	"io/ioutil"
 	"fmt"
+	"net/http"
 )
 
 type Page struct {
@@ -24,9 +25,11 @@ func loadPage(title string) (*Page, error) {
 	return &Page{Title: title, Body: body}, nil
 }
 
+func handler(w http.ResponseWriter, r *http.Request)  {
+	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+}
+
 func main() {
-	p1 := &Page{Title: "TestPage", Body: []byte("This is a simple page.")}
-	p1.save()
-	p2, _ := loadPage("TestPage")
-	fmt.Println(string(p2.Body))
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":3000", nil)
 }
