@@ -5,9 +5,10 @@ import (
 )
 
 func main() {
-	sum := 0
-	for i:=0;i<10;i++ {
-		sum+=i
+	var x, y int = 3, 4
+	if z:= x*y; z > 10{
+		fmt.Println(z)
+	} else {
+		fmt.Println("failed:", z)
 	}
-	fmt.Println(sum)
 }
