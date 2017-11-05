@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 )
-var i, j int = 1, 2
 
 func main() {
-	c, python, java := true, false, "no!"
-	fmt.Println(i, j)
-	fmt.Println(c, python, java)
+	sum := 0
+	for i:=0;i<10;i++ {
+		sum+=i
+	}
+	fmt.Println(sum)
 }
