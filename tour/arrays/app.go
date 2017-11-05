@@ -8,6 +8,6 @@ type Vertex struct {
 }
 
 func main() {
-	var a [2]string
+	a := []string{"1", "2", "3"}
 	fmt.Println(a)
 }
