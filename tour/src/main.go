@@ -4,12 +4,10 @@ import (
 	"fmt"
 )
 
-func split(sum int)(x, y int) {
-	x = sum*4/9
-	y = sum - x
-	return
-}
+var x, y, z float64
+var str string
+
 
 func main() {
-	fmt.Println(split(9))
+	fmt.Printf("%v, %v, %v, %q\n",x, y, z, str)
 }
