@@ -3,13 +3,10 @@ package main
 import (
 	"fmt"
 )
-
-var c, python, java bool
-var x, y, z float64
-var str string
-
+var i, j int = 1, 2
 
 func main() {
-	fmt.Printf("%v, %v, %v, %q\n",x, y, z, str)
+	var c, python, java = true, false, "no!"
+	fmt.Println(i, j)
 	fmt.Println(c, python, java)
 }
