@@ -5,9 +5,13 @@ import (
 )
 
 func main() {
-	defer fmt.Println("world")
-	defer fmt.Println("world123")
-	fmt.Println("hello1")
-	defer fmt.Println("world456")
-	defer fmt.Println("hello2")
+	i,j := 42, 2701
+	p := &i
+	fmt.Println(*p)
+	*p = 21
+	fmt.Println(i)
+	p = &j
+	*p = &j
+	*p = *p/37
+	fmt.Println(j)
 }
