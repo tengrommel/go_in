@@ -22,7 +22,7 @@ func returnsNamed(input1 string, input2 int) (theResult string, err error) {
 }
 
 func main()  {
-	fmt.Printf("Rolled a die of size %d, result: %d, result: %d\n", 7, dieRoll(6))
+	fmt.Printf("Rolled a die of size %d, result: %d\n", 7, dieRoll(6))
 	res1, res2 := rollTwo(6, 10)
 	fmt.Printf("Rolled a pair of dice (%d, %d), results: %d, %d\n", 6, 10, res1, res2)
 	named, err := returnsNamed("globule", 42)
