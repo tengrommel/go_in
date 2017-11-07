@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3542dd83-1e89-4cf1-b5e1-ced35542b65e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/closures/closures.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/functions/app.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/multiple-return-values/multiple_return_values.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/recursion/recursion.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/variadic-functions/variadic_functions.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/pointers/pointers.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -31,13 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="recursion.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recursion.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tour/example/recursion/recursion.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64696485">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#13#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pointers.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tour/example/pointers/pointers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21565495">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +79,7 @@
         <option value="$PROJECT_DIR$/tour/example/variadic-functions/variadic_functions.go" />
         <option value="$PROJECT_DIR$/tour/example/closures/closures.go" />
         <option value="$PROJECT_DIR$/tour/example/recursion/recursion.go" />
+        <option value="$PROJECT_DIR$/tour/example/pointers/pointers.go" />
       </list>
     </option>
   </component>
@@ -80,7 +89,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1015" />
+    <option name="x" value="547" />
     <option name="y" value="34" />
     <option name="width" value="1373" />
     <option name="height" value="1040" />
@@ -184,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="recursion" />
+              <option name="myItemId" value="pointers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,13 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run closures.go">
-    <configuration default="false" name="go run app.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go_in" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tour/array/app.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run pointers.go">
     <configuration default="false" name="go run app.go (2)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
@@ -247,6 +250,12 @@
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tour/example/closures/closures.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run pointers.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go_in" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tour/example/pointers/pointers.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -702,19 +711,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run app.go (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run app.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run app.go (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run multiple_return_values.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run variadic_functions.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run closures.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run app.go (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run multiple_return_values.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run variadic_functions.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run closures.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run pointers.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run closures.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run variadic_functions.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run multiple_return_values.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run app.go (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run app.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run pointers.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run closures.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run variadic_functions.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run multiple_return_values.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run app.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -738,7 +747,7 @@
       <workItem from="1509947723606" duration="3936000" />
       <workItem from="1509955467119" duration="467000" />
       <workItem from="1509961592946" duration="992000" />
-      <workItem from="1510014693175" duration="2596000" />
+      <workItem from="1510014693175" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1509946750421</created>
@@ -758,15 +767,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510015089052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="函数">
+      <created>1510017371226</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510017371226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9222000" />
+    <option name="totallyTimeSpent" value="10815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1015" y="34" width="1373" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="547" y="34" width="1373" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -779,7 +794,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41959065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25171104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -814,7 +829,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ff" />
     <MESSAGE value="ok &amp;struct 地址引用" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok &amp;struct 地址引用" />
+    <MESSAGE value="函数" />
+    <MESSAGE value="指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,9 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69948184">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,18 +929,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4744409">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/example/recursion/recursion.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64696485">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#13#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/example/pointers/pointers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21565495">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
