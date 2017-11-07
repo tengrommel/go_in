@@ -1,19 +1,12 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;go_in&gt;">
     <CLASSES>
-      <root url="file://$USER_HOME$/go/src/echo" />
-      <root url="file://$USER_HOME$/go/src/iris.v6" />
-      <root url="file://$USER_HOME$/go/src/golang.org" />
-      <root url="file://$USER_HOME$/go/src/github.com" />
-      <root url="file://$USER_HOME$/go/src/jikeblog" />
-      <root url="file://$USER_HOME$/go/src/beeblog" />
-      <root url="file://$USER_HOME$/go/src/sourcegraph.com" />
-      <root url="file://$USER_HOME$/go/src/9fans.net" />
-      <root url="file://$USER_HOME$/go/src/autocert" />
-      <root url="file://$USER_HOME$/go/src/go-sqlite3" />
-      <root url="file://$USER_HOME$/go/src/gopkg.in" />
-      <root url="file://$USER_HOME$/go/src/scram" />
-      <root url="file://$USER_HOME$/go/src/myapp" />
+      <root url="file://$USER_HOME$/Applications/Go/src/sourcegraph.com" />
+      <root url="file://$USER_HOME$/Applications/Go/src/9fans.net" />
+      <root url="file://$USER_HOME$/Applications/Go/src/GoAPP" />
+      <root url="file://$USER_HOME$/Applications/Go/src/gopkg.in" />
+      <root url="file://$USER_HOME$/Applications/Go/src/golang.org" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -32,7 +25,65 @@
       <root url="file://$USER_HOME$/go/src/myapp" />
     </SOURCES>
     <excluded>
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/rogpeppe/godef/go/printer/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/lib/pq/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/spf13/cobra/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/jtolds/gls/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/ramya-rao-a/go-outline/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/peterh/liner/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/go-fsnotify/fsnotify/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/GoAPP/git-beego/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/peterh/liner/.github" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/josharian/impl/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/beego/bee/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/9fans.net/go/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/spf13/cobra/cobra/cmd/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/nsf/gocode/_testing" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/revel/cmd/.git" />
       <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/Applications/Go/src/gopkg.in/yaml.v2/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/gorilla/sessions/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/sourcegraph.com/sqs/goreturns/_samples" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/MichaelTJones/walk/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/robfig/config/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/gorilla/context/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/nsf/gocode/_goremote" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/robfig/config/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/b3log/wide/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/nsf/gocode/_gccgo" />
+      <root url="file://$USER_HOME$/Applications/Go/src/sourcegraph.com/sqs/goreturns/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/beego/bee/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/revel/revel/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/gorilla/websocket/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/nsqio/nsq/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/nsf/gocode/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/agtorre/gocolorize/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/astaxie/beego/utils/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/robfig/pathtree/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/revel/modules/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/fatih/structtag/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/smartystreets/goconvey/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/derekparker/delve/pkg/dwarf/frame/testdata" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/fatih/camelcase/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/gopkg.in/fsnotify.v1/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/go-martini/martini/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/go-sql-driver/mysql/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/spf13/pflag/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/gorilla/securecookie/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/sqs/goreturns/_samples" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/fatih/gomodifytags/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/codegangsta/inject/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/sqs/goreturns/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/revel/revel/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/rogpeppe/godef/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/derekparker/delve/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/acroca/go-symbols/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/uudashr/gopkgs/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/derekparker/delve/_fixtures" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/howeyc/fsnotify/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/smartystreets/assertions/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/88250/ide_stub/.git" />
+      <root url="file://$USER_HOME$/Applications/Go/src/github.com/astaxie/beego/.git" />
     </excluded>
   </library>
 </component>
