@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3542dd83-1e89-4cf1-b5e1-ced35542b65e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/channel-buffering/channel-buffering.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/channel-synchronization/channel-synchronization.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,13 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="channel-buffering.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tour/example/channel-buffering/channel-buffering.go">
+      <file leaf-file-name="channel-synchronization.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tour/example/channel-synchronization/channel-synchronization.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67725754">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.36120403">
+              <caret line="8" column="25" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#14#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/tour/example/goroutines/goroutines.go" />
         <option value="$PROJECT_DIR$/tour/example/channels/channels.go" />
         <option value="$PROJECT_DIR$/tour/example/channel-buffering/channel-buffering.go" />
+        <option value="$PROJECT_DIR$/tour/example/channel-synchronization/channel-synchronization.go" />
       </list>
     </option>
   </component>
@@ -185,7 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="channel-buffering" />
+              <option name="myItemId" value="channel-synchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,13 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run channels.go">
-    <configuration default="false" name="go run pointers.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go_in" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tour/example/pointers/pointers.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run channel-synchronization.go">
     <configuration default="false" name="go run motheds.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
@@ -251,6 +246,12 @@
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tour/example/channels/channels.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run channel-synchronization.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go_in" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tour/example/channel-synchronization/channel-synchronization.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -706,19 +707,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run app.go (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run pointers.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run motheds.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run motheds.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run motheds.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run pointers.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run motheds.go" />
       </list>
     </recent_temporary>
   </component>
@@ -745,7 +746,7 @@
       <workItem from="1510014693175" duration="7663000" />
       <workItem from="1510033943607" duration="655000" />
       <workItem from="1510043661057" duration="3805000" />
-      <workItem from="1510101085779" duration="1611000" />
+      <workItem from="1510101085779" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1509946750421</created>
@@ -819,11 +820,17 @@
       <option name="project" value="LOCAL" />
       <updated>1510102446522</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="管道缓存">
+      <created>1510102747120</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510102747120</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20360000" />
+    <option name="totallyTimeSpent" value="20767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="674" y="34" width="1246" height="1018" extended-state="0" />
@@ -836,17 +843,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41887227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32323232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32323232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1049,18 +1056,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5869565">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/example/channel-buffering/channel-buffering.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67725754">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5869565">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/example/channel-synchronization/channel-synchronization.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36120403">
+          <caret line="8" column="25" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
