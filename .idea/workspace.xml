@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3542dd83-1e89-4cf1-b5e1-ced35542b65e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/timeout/timeout.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/example/non-blocking-channel-operations/non-blocking-channel-operations.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,13 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="timeout.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tour/example/timeout/timeout.go">
+      <file leaf-file-name="non-blocking-channel-operations.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tour/example/non-blocking-channel-operations/non-blocking-channel-operations.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40715268">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.66574967">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
-                <element signature="e#14#39#0" expanded="true" />
+                <element signature="e#13#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +79,7 @@
         <option value="$PROJECT_DIR$/tour/example/channel-directions/channel-directions.go" />
         <option value="$PROJECT_DIR$/tour/example/select/select.go" />
         <option value="$PROJECT_DIR$/tour/example/timeout/timeout.go" />
+        <option value="$PROJECT_DIR$/tour/example/non-blocking-channel-operations/non-blocking-channel-operations.go" />
       </list>
     </option>
   </component>
@@ -188,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="timeout" />
+              <option name="myItemId" value="non-blocking-channel-operations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,13 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run timeout.go">
-    <configuration default="false" name="go run channels.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go_in" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tour/example/channels/channels.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run non-blocking-channel-operations.go">
     <configuration default="false" name="go run channel-synchronization.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
@@ -254,6 +249,12 @@
       <module name="go_in" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tour/example/timeout/timeout.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run non-blocking-channel-operations.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go_in" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tour/example/non-blocking-channel-operations/non-blocking-channel-operations.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -709,19 +710,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run app.go (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run channel-directions.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run timeout.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run channel-directions.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run timeout.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run non-blocking-channel-operations.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run timeout.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run channel-directions.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run non-blocking-channel-operations.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run timeout.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run channel-directions.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run channel-synchronization.go" />
       </list>
     </recent_temporary>
   </component>
@@ -748,7 +749,7 @@
       <workItem from="1510014693175" duration="7663000" />
       <workItem from="1510033943607" duration="655000" />
       <workItem from="1510043661057" duration="3805000" />
-      <workItem from="1510101085779" duration="6235000" />
+      <workItem from="1510101085779" duration="7817000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1509946750421</created>
@@ -846,14 +847,20 @@
       <option name="project" value="LOCAL" />
       <updated>1510104981740</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="timeout">
+      <created>1510107513328</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1510107513328</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24984000" />
+    <option name="totallyTimeSpent" value="26566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-46" width="1920" height="1126" extended-state="0" />
+    <frame x="0" y="-46" width="1920" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -867,7 +874,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41887227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32323232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5058923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -913,7 +920,8 @@
     <MESSAGE value="如果你把'&lt;-done'这行代码从程序中移除，程序将什么都不打印" />
     <MESSAGE value="通道方向" />
     <MESSAGE value="select" />
-    <option name="LAST_COMMIT_MESSAGE" value="select" />
+    <MESSAGE value="timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="timeout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,10 +1125,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/example/timeout/timeout.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40715268">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.51994497">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/example/non-blocking-channel-operations/non-blocking-channel-operations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66574967">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
-            <element signature="e#14#39#0" expanded="true" />
+            <element signature="e#13#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
